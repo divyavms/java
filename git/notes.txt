@@ -48,3 +48,8 @@ git config --local credential.helper ""
 see all configs:
 git config --global --list
 
+clone remote repo:
+git clone <url>
+
+check status:
+git status
