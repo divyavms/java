@@ -53,3 +53,7 @@ git clone <url>
 
 check status:
 git status
+
+add files to staging:
+git add .
+git add *
