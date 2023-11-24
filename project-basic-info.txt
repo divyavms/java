@@ -1,0 +1,26 @@
+Project:
+High level idea of project
+business documantation - any documentation like confluence, shared folder
+Tech stack
+technical documantation
+architecture documentation
+any other documents
+installations - Java, Maven, Gradle, Git, Postman, DB access tools like SQL Developer, DBeavers etc
+accesses - git repositories, confluence etc
+repositories links
+code setup in local, application up and running in local
+-----------------------------------------------
+Java:
+Core Java - String, Collections & Stream APIs, Lambda, DateTime library
+Need - Spring, Spring Boot, Multithreading etc
+Reactive Java
+
+Git:
+Install git in local
+Install Tortoise git
+Base commands
+conflict resolution
+gui - tortoise git, git desktop, source tree
+
+Maven:
+Need knowledge from basics

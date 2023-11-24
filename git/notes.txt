@@ -1,0 +1,50 @@
+git:
+------
+git: SCM language
+local repo - in local machin
+remote repo - github / bitbucket / gitlab
+
+local repo <-> remote repo - should be in sync
+
+branches:
+main / master - on repo creation
+from main -> develop branch -> only 1 develop branch
+develop -> release branches -> multiple release branches
+release -> feature/bugfix branches -> actual development branch where dev team write code
+
+main -> develop -> release -> feature/bugfix/custom
+
+prod deployment -> either main or develop
+
+PR / MR : both are same
+PR - Pull Request
+MR - Merge Request
+
+new repo -> default branch main (or) master
+default remote name -> origin
+current branch -> HEAD
+parent of HEAD -> HEAD^ (or) HEAD~1
+HEAD~1 parent -> HEAD~2
+
+commands:
+version check:
+git --version
+
+help:
+git help
+
+configure email address to be user with our commits:
+git config --global user.email "test@gmail.com"
+
+configure author name:
+git config --global user.name "divya"
+
+configure password:
+git config --global user.password "testPwd"
+
+remove credentials from local repo:
+git config --local credential.helper ""
+
+see all configs:
+git config --global --list
+
