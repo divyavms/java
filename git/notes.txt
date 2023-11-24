@@ -54,6 +54,14 @@ git clone <url>
 check status:
 git status
 
+checking branches:
+git branch -> to check current branch
+git branch -a ->to check all branches
+git branch -branchname ->to create new branch
+git branch checkout branchname->to go to different branch
+
 add files to staging:
 git add .
 git add *
+
+
