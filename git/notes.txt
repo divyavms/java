@@ -57,11 +57,15 @@ git status
 checking branches:
 git branch -> to check current branch
 git branch -a ->to check all branches
-git branch -branchname ->to create new branch
-git branch checkout branchname->to go to different branch
+git branch branchname ->to create new branch
+git checkout branchname->to switch different branch
+
+git branch -d --remote origin/branchname ->to delete remote branch 
 
 add files to staging:
 git add .
 git add *
 
+adding to staging and commiting by using single command
+git commit -am "your message"
 
