@@ -5,6 +5,8 @@ Install notepad++
 Install tortoise git
 
 git basics
+
+read about confluence in youtube - Divya
 -----------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------
 Inprogress:
@@ -18,4 +20,3 @@ maven basics
 
 maven commands
 
-read about confluence in youtube

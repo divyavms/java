@@ -69,3 +69,10 @@ git add *
 adding to staging and commiting by using single command
 git commit -am "your message"
 
+git reset <commitId>
+to reset to provious state - removing all commits came after specified commit
+
+revert - remove specefic commit id
+git revert <commitId>
+
+git log
