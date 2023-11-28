@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "a8867b05-4e56-447c-b96f-023cb675c339",
+		"name": "rest-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30202053"
+	},
+	"item": [
+		{
+			"name": "get-apis",
+			"item": [
+				{
+					"name": "/api/v2/get-address",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/v2/get-address",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"v2",
+								"get-address"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/v1/get-address",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/v1/get-address",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"get-address"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
